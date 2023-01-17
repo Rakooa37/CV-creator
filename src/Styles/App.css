@@ -23,3 +23,13 @@ body{
   gap: 2rem;
   background-color: whitesmoke;
 }
+
+@media screen and (max-width: 600px){
+  .CV{
+    padding: 1rem;
+  }
+
+  html{
+    font-size: 75%;
+  }
+} 
