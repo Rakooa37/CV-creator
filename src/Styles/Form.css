@@ -1,0 +1,76 @@
+
+.personal-information-form{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #c8b7a6;
+    max-width: 50rem;
+    box-shadow: -21px -21px 5px -9px #A6B7C8;
+  }
+  
+
+  form > input{
+    padding: 0.5rem 0.5rem;
+    width: 90%;
+    margin: 1rem;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  form > .description{
+    padding-bottom: 3rem;
+    white-space:pre;
+  }
+
+  .personal-experience-form{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #c8b7a6;
+    max-width: 50rem; 
+  }
+
+ textarea{
+    max-width: 60rem;
+    min-width: 45rem;
+    padding: 0.5rem;
+    margin: 1rem; 
+    white-space: pre-line;
+  }
+
+  button{
+    width:100%;
+    font-size: large;
+    border: none;
+    border-radius: 12px;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    color: white;
+  }
+
+  button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  #file-input{
+    display: none;
+  }
+
+
+  /*Education form
+  --------------------------*/
+
+  .education-form{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #c8b7a6;
+    max-width: 50rem;
+  }
+
+
+ 

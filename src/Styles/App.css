@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: xxx-large;
+  background-color:#7d94b5;
+  font-family: 'Prosto One', cursive;
+  color: beige;
+}
+
+.CV{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 2rem;
+  background-color: whitesmoke;
+}
