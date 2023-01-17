@@ -1,13 +1,12 @@
-
 .personal-information-form{
     display: flex;
     flex:1;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #c8b7a6;
-    max-width: 50rem;
+    max-width: 45rem;
     box-shadow: -21px -21px 5px -9px #A6B7C8;
-  }
+}
   
 
   form > input{
@@ -29,12 +28,11 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: #c8b7a6;
-    max-width: 50rem; 
+    max-width: 45rem; 
   }
 
  textarea{
-    max-width: 60rem;
-    min-width: 45rem;
+    width: 90%;
     padding: 0.5rem;
     margin: 1rem; 
     white-space: pre-line;
@@ -69,8 +67,26 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: #c8b7a6;
-    max-width: 50rem;
+    max-width: 45rem;
   }
 
+  @media screen and (max-width: 900px) {
+    .form{
+      padding: 0;
+    }
 
+    
+    .personal-information-form{
+      max-width: 30rem;
+    }
+  
+    .personal-experience-form{
+      max-width: 30rem;
+    }
+
+    .education-form{
+      max-width: 30rem;
+    }
+
+  }
  
