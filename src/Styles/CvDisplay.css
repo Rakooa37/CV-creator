@@ -1,8 +1,8 @@
-  .cvDisplay{
+.cvDisplay{
     flex:1;
     width: 80%;
-    min-width: 50rem;
-    max-width: 65rem;
+    min-width: 25rem;
+    max-width: 70rem;
   }
   
   .cvDisplayHeader{
@@ -21,7 +21,6 @@
     padding-left: 1rem;
     font-size: x-large;
     font-weight: bold;
-    
   }
   
   .cvDisplayBody{
@@ -117,4 +116,27 @@
     font-size: 1.5rem;
     font-weight: bold;
     font-style: normal;
+  }
+
+  @media screen and (max-width: 600px){
+    img{
+      width: 7rem;
+    }
+
+    .cvDisplayHeader > .title{
+      font-size: x-large;
+      text-align: center;
+      
+    }
+
+    .cvDisplayHeader{
+      display: flex;
+      padding: 0;
+    }
+
+    .name{
+      padding: 1rem;
+      font-size: xx-large;
+      font-weight: bolder;
+    }
   }
